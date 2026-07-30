@@ -1,4 +1,4 @@
-# Day 35 - Hyperparameter Tuning
+# Day 34 - Hyperparameter Tuning
 
 ## Topics Covered
 
