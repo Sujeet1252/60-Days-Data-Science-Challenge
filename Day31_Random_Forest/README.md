@@ -4,14 +4,18 @@
 
 - Random Forest
 - Ensemble Learning
-- Bagging Regression
-- Bagging Classifier
 - Bootstrap Sampling
 - Feature Importance
 - Prediction
 - Accuracy Score
 - Confusion Matrix
 - Classification Report
+
+## Algorithms Used
+
+- Bagging Classifier/Regression
+- Random Forest Classifier/Regression
+- Voting Classifier/Regression
 
 ## Major Project
 
