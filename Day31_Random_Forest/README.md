@@ -4,6 +4,8 @@
 
 - Random Forest
 - Ensemble Learning
+- Bagging Regression
+- Bagging Classifier
 - Bootstrap Sampling
 - Feature Importance
 - Prediction
