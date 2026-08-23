@@ -5,7 +5,7 @@ import joblib
 app = Flask(__name__)
 
 # Load Day 45 trained model
-model = joblib.load("model/employee_salary_model.joblib")
+model = joblib.load("models/employee_salary_model.joblib")
 
 
 @app.route("/", methods=["GET", "POST"])
