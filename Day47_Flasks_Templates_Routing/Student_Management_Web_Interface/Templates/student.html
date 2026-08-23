@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}
+Student Details
+{% endblock %}
+
+{% block content %}
+
+<h1>Individual Student</h1>
+
+<h2>{{ student.name }}</h2>
+
+<p>
+    <strong>Student ID:</strong>
+    {{ student.id }}
+</p>
+
+<p>
+    <strong>Marks:</strong>
+    {{ student.marks }}
+</p>
+
+{% if student.marks >= 40 %}
+
+    <p class="pass">
+        Status: Pass
+    </p>
+
+{% else %}
+
+    <p class="fail">
+        Status: Fail
+    </p>
+
+{% endif %}
+
+<a class="button" href="/students">
+    Back to Student List
+</a>
+
+{% endblock %}

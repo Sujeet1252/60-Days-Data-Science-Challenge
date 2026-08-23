@@ -1,0 +1,38 @@
+# Day 23 - Statistics for Data Science
+
+## Topics Covered
+
+- Mean
+- Median
+- Mode
+- Range
+- Variance
+- Standard Deviation
+- Mean Absolute Deviation
+- Percentile :
+    - Quartile
+- Frequency Distribution
+- Skewness :
+    - No Skewness
+    - Left Skewness
+    - Right Skewness
+- Hypothesis Testing
+    - T Testing
+    - Z Testing
+    - Chi Square Testing
+- Central Limit Theory
+
+
+Features:
+- Statistical Summary
+- Salary Distribution
+- Business Insights
+- Data Visualization
+
+
+## Libraries Used
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
