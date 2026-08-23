@@ -40,7 +40,7 @@ def student_detail(student_id):
     )
     if not student:
         abort(404)
-    return render_template('student_detail.html', student=student)
+    return render_template('student.html', student=student)
 
 if __name__ == '__main__':
     app.run(debug=True)
