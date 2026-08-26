@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+
+Home
+
+{% endblock %}
+
+
+
+{% block content %}
+
+
+<div class="hero">
+
+
+    <h1>
+        Authentication Application
+    </h1>
+
+
+    <p>
+        Welcome to the Flask User Authentication System.
+    </p>
+
+
+    <p>
+        This application demonstrates
+        registration, login, password hashing,
+        sessions, protected routes and logout.
+    </p>
+
+
+    {% if session.get("user_id") %}
+
+
+        <a
+            class="button"
+            href="{{ url_for('dashboard') }}"
+        >
+            Go to Dashboard
+        </a>
+
+
+    {% else %}
+
+
+        <div class="button-group">
+
+
+            <a
+                class="button"
+                href="{{ url_for('register') }}"
+            >
+                Create Account
+            </a>
+
+
+            <a
+                class="button secondary"
+                href="{{ url_for('login') }}"
+            >
+                Login
+            </a>
+
+
+        </div>
+
+
+    {% endif %}
+
+
+</div>
+
+
+{% endblock %}
