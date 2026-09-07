@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<a class="logout" href="/logout">
+    Logout
+</a>
+
+<h1>Student Management Dashboard</h1>
+
+<h2>Welcome, {{ username }}!</h2>
+
+<p>
+    You are successfully logged in.
+</p>
+
+<hr>
+
+<h2>Students</h2>
+
+{% if students %}
+
+<table>
+
+    <thead>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        {% for student in students %}
+
+        <tr>
+
+            <td>
+                {{ student["id"] }}
+            </td>
+
+            <td>
+                {{ student["name"] }}
+            </td>
+
+            <td>
+                {{ student["marks"] }}
+            </td>
+
+        </tr>
+
+        {% endfor %}
+
+    </tbody>
+
+</table>
+
+{% else %}
+
+<p>No students found.</p>
+
+{% endif %}
+
+<hr>
+
+<h2>API Endpoints</h2>
+
+<ul>
+
+    <li>GET /api/students</li>
+
+    <li>GET /api/students/&lt;id&gt;</li>
+
+    <li>POST /api/students</li>
+
+    <li>PUT /api/students/&lt;id&gt;</li>
+
+    <li>DELETE /api/students/&lt;id&gt;</li>
+
+    <li>GET /api/students/search?name=Rahul</li>
+
+</ul>
+
+{% endblock %}
