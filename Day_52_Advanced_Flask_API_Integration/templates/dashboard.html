@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card">
+
+<h1>Welcome, {{ username }}</h1>
+
+<p>
+You have successfully logged into the Day 52 Modular Flask Application.
+</p>
+
+<div class="info">
+
+<h3>Available API</h3>
+
+<code>
+GET /api/students
+</code>
+
+<br><br>
+
+<code>
+POST /api/students
+</code>
+
+</div>
+
+</div>
+
+{% endblock %}
