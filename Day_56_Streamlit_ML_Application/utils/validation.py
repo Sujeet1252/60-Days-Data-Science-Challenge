@@ -4,6 +4,9 @@ def validate_house_data(
     bathrooms,
     age
 ):
+    """
+    Validate house prediction input values.
+    """
 
     if area <= 0:
         return "Area must be greater than 0."
