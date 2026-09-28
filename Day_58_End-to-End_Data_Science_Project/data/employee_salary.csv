@@ -1,0 +1,21 @@
+Age,Experience_Years,Education,Job_Level,Department,Salary
+22,0,Bachelors,1,IT,300000
+24,1,Bachelors,1,IT,350000
+25,2,Bachelors,1,Finance,380000
+26,3,Bachelors,2,IT,450000
+27,4,Masters,2,Data Science,550000
+28,5,Masters,2,Data Science,600000
+29,6,Masters,3,Data Science,700000
+30,7,Masters,3,IT,720000
+31,8,Masters,3,Finance,750000
+32,9,Masters,4,Data Science,850000
+33,10,Masters,4,Data Science,900000
+35,12,Masters,4,IT,950000
+36,13,Masters,5,Data Science,1100000
+38,15,Masters,5,Data Science,1250000
+40,17,PhD,5,Data Science,1400000
+42,19,PhD,5,IT,1450000
+45,22,PhD,6,Data Science,1650000
+48,25,PhD,6,Data Science,1850000
+50,27,PhD,6,IT,1800000
+52,30,PhD,7,Data Science,2200000
